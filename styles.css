@@ -1,0 +1,319 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fff;
+}
+
+header {
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav .logo {
+    font-size: 24px;
+    color: #ff0000;
+    font-weight: bold;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #000;
+    font-size: 16px;
+}
+
+nav .download-btn {
+    background-color: #000;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+    background: linear-gradient(135deg, #da822f 0%, #ff0000 100%);
+    color: #fff;
+    flex-wrap: wrap;
+}
+
+.hero-content {
+    max-width: 50%;
+}
+
+.hero-content h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+.hero-content p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.hero-buttons button {
+    background-color: #000;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+/* .hero-image img {
+    max-width: 100%;
+    height: auto;
+} */
+.hero-image {
+    position: relative;
+    width: 300px; /* Adjust to your needs */
+    height: 600px; /* Adjust to your needs */
+    margin: 0 auto;
+}
+
+.hero-image .layer {
+    
+    position: absolute;
+    width: 170%;
+    height: auto;
+    top: 0;
+}
+
+.hero-image .layer1 {
+    left: 90;
+    top: -10px;
+    z-index: 1; /* Bottom layer */
+}
+
+.hero-image .layer2 {
+    left: 70px; /* Slightly right for top layer */
+    top: 0px;
+    
+    z-index: 2;
+}
+
+.hero-image .layer3 {
+    left: 160px; /* Slightly right for top layer */
+    top: 10px;
+    z-index: 3;
+}
+
+.advantages {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+    background-color: #fff;
+    flex-wrap: wrap;
+}
+
+.advantages-content {
+    max-width: 50%;
+}
+
+.advantages-content h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.advantage-item {
+    margin-bottom: 20px;
+}
+
+.advantage-item h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.advantage-item p {
+    font-size: 16px;
+}
+
+/* .advantage-image {
+    max-width: 50%;
+}
+
+.advantage-image img {
+    max-width: 100%;
+    height: auto;
+} */
+
+.advantage-image {
+    position: relative;
+    width: 600px; /* Adjust to your needs */
+    height: 600px; /* Adjust to your needs */
+    margin: 0 auto;
+}
+
+.advantage-image img {
+    position: absolute;
+    width: 90%; /* Adjust to your needs */
+    height: auto;
+    top: 65%;
+    transform: translateY(-50%); /* Vertically center the images */
+}
+
+.left-image {
+    left: 0;
+    z-index: 2; /* Adjust if needed */
+}
+
+.right-image {
+    right: 0;
+    z-index: 1; /* Adjust if needed */
+}
+
+.center img {
+    max-width: 100%;
+    height: auto;
+}
+
+.faq {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+    background-color: #f9f9f9;
+    flex-wrap: wrap;
+}
+
+.faq-column {
+    flex: 1;
+    margin: 0 10px;
+}
+
+.faq h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.faq-item {
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    color: #fff;
+}
+
+.black-box {
+    background-color: #000;
+}
+
+.red-box {
+    background-color: #ff0000;
+}
+
+.faq-item h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.faq-item p {
+    font-size: 16px;
+}
+
+footer {
+    background-color: #f9f9f9;
+    padding: 50px 20px;
+    color: #333;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.footer-section {
+    flex: 1;
+    min-width: 200px;
+    margin: 10px;
+}
+
+.footer-section h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.footer-section ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.footer-section ul li {
+    margin-bottom: 10px;
+}
+
+.footer-section ul li a {
+    text-decoration: none;
+    color: #000;
+}
+
+.footer-section ul li input {
+    width: calc(100% - 100px);
+    padding: 5px;
+    margin-right: 10px;
+}
+
+.footer-section ul li button {
+    background-color: #000;
+    color: #fff;
+    padding: 5px 10px;
+}
+
+.footer-bottom {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.footer-bottom p {
+    margin: 0;
+}
+
+@media (max-width: 768px) {
+    .hero, .advantages, .faq {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .hero-content, .advantages-content {
+        max-width: 100%;
+    }
+
+    .hero-image, .advantage-image {
+        max-width: 100%;
+        margin-top: 20px;
+    }
+
+    .footer-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footer-section {
+        max-width: 100%;
+        margin: 20px 0;
+    }
+}
